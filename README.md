@@ -12,11 +12,11 @@ This image is built based on Alpine Linux. It's very lightweight with only 36M i
 
 # How to use this image
 
-## Demultiplex to a different location
-
-This is useful when FASTQ files need to be demultiplexed and stored separately e.g. in a NAS storage device.
-
-```bash
+## Make the run script exceutable
+```{bash}
 chmod +x run_bcl2fastq.sh
+```
+## Demultiplex BCL files
+```{bash}
 ./run_bcl2fastq.sh -r "/path/to/ngs_run_dir" -o "/path/to/out_dir" -s "sample_sheet.csv" -l "log_name"
 ```
