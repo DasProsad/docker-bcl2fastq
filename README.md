@@ -6,7 +6,7 @@
 
 # What is bcl2fastq?
 
-The Illumina bcl2fastq2 Conversion Software demultiplexes sequencing data and converts base call (BCL) files into FASTQ files. For more information, please see the latest [software guide]().
+The Illumina bcl2fastq2 Conversion Software demultiplexes sequencing data and converts base call (BCL) files into FASTQ files. For more information, please see the latest [software guide](https://github.com/DasProsad/docker-bcl2fastq/blob/master/bcl2fastq2-v2-20-guide.pdf).
 
 This image is built based on Alpine Linux. It's very lightweight with only 36M in size.
 
