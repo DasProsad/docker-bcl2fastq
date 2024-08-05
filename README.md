@@ -13,10 +13,10 @@ This image is built based on Alpine Linux. It's very lightweight with only 36M i
 # How to use this image
 
 ## Make the run script exceutable
-```{bash}
+```bash
 chmod +x run_bcl2fastq.sh
 ```
 ## Demultiplex BCL files
-```{bash}
+```bash
 ./run_bcl2fastq.sh -r "/path/to/ngs_run_dir" -o "/path/to/out_dir" -s "sample_sheet.csv" -l "log_name"
 ```
